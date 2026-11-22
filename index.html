@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Daniel | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav id="m" aria-label="Menu principal">
+
+        <!-- botão do menu (só aparece no celular) -->
+        
+        <button id="hb" class="ibtn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="links">
+            <svg class="i-menu" viewBox="0 0 24 24" aria-hidden="true">
+                <line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="12" y2="12" /><line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+            <svg class="i-x" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 6 6 18" /><path d="m6 6 12 12" />
+            </svg>
+            <span>Menu</span>
+        </button>
+
+        <div class="links" id="links">
+            <a href="#home" class="on">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contato">Contato</a>
+        </div>
+
+        <!-- botão de tema: lua no claro, sol no escuro -->
+        <button id="th" class="ibtn" type="button" aria-label="Alternar modo escuro">
+            <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+            </svg>
+            <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" />
+                <path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" />
+            </svg>
+        </button>
+    </nav>
+
+    <section id="home" class="hero">
+        <div>
+            <div class="tag"></div>
+            <h1>Oi, eu sou o <span>Daniel.</span></h1>
+            <div class="role"><span id="t"></span><i></i></div>
+            <p class="lead">
+                Crio experiências digitais limpas, funcionais e amigáveis.
+            </p>
+            <p class="lead">
+                Cursando Ciências da Computação, apaixonado por design e desenvolvimento de software, transformo ideias em soluções web interativas e cheias de significado.
+            </p>
+            <div class="btns">
+                <a class="btn b1" href="https://wa.me/5586981888397?text=Ol%C3%A1%20Daniel%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar" >Contrate-me</a>
+                <a class="btn b2" href="assets/curriculo/cv-daniel.pdf" download="CV-Daniel.pdf">⬇ Baixar CV</a>
+            </div>
+            <hr>
+            <div class="soc">
+                <span>Siga-me:</span>
+                <a href="https://github.com/Danyel-xp" aria-label="GitHub">Git</a>
+                <a href="https://www.linkedin.com/in/danyelrodrigues/" aria-label="LinkedIn">in</a>
+                <a href="https://www.instagram.com/snow__zyy/" aria-label="Instagram">Ig</a>
+            </div>
+        </div>
+
+        <!-- Meus desenhos -->
+        <div class="art">
+            <img class="pic lt" src="assets/images/escuro.png" alt="Desenho de Daniel em traço verde">
+            <img class="pic dk" src="assets/images/claro.png" alt="Desenho de Daniel em traço claro">
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p class="lead" style="max-width:720px">
+            Olá! Sou estudante de Ciência da Computação e apaixonado por tecnologia  e criatividade.
+        </p>
+        <p class="lead" style="max-width:720px">
+            Gosto de entender como as coisas funcionam, explorar novas ideias e
+            transformá-las em projetos reais. Tenho interesse em desenvolvimento Web e no desenvolvimento e administração de Banco de Dados, estou sempre buscando aprender algo novo, experimentar tecnologias e aprimorar minhas habilidades.
+        </p>
+        <p class="lead" style="max-width:720px">
+            Fora do código, encontro inspiração no desenho, na música, nos animes,
+            nos mangás e no contato com a natureza. Acredito que a curiosidade é uma das melhores formas de evoluir e
+            descobrir novas possibilidades.
+        </p>
+    </section>
+
+    <!-- Minhas tecnologias -->
+    <section id="tecnologias">
+        <h2>Tecnologias</h2>
+        <div class="sub">Linguagens</div>
+        <div class="tiles">
+            <div class="tile">
+                <span class="ico">
+                <i class="devicon-typescript-plain"></i>
+                </span>
+                TypeScript
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-javascript-plain"></i>
+                </span>
+                JavaScript
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-html5-plain"></i>
+                </span>
+                HTML
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-css3-plain"></i>
+                </span>
+                CSS
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-c-plain"></i>
+                </span>
+                C
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-mysql-original"></i>
+                </span>
+                MySQL
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-sqlite-plain"></i>
+                </span>
+                SQLite
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-lua-plain"></i>
+                </span>
+                Lua
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-python-plain"></i>
+                </span>
+                Python
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-bash-plain"></i>
+                </span>
+                Bash
+            </div>
+        </div>
+
+        <div class="sub">Frameworks</div>
+        <div class="tiles">
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-react-original"></i>
+                </span>
+                React
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-nodejs-plain"></i>
+                </span>
+                Node.js
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-express-original"></i>
+                </span>
+                Express
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-bootstrap-plain"></i>
+                </span>
+                Bootstrap
+            </div>
+
+        </div>
+
+        <div class="sub">Ferramentas</div>
+        <div class="tiles">
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-git-plain"></i>
+                </span>
+                Git
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-figma-plain"></i>
+                </span>
+                Figma
+            </div>
+
+            <div class="tile">
+                <span class="ico">
+                    <i class="devicon-linux-plain"></i>
+                </span>
+                Linux
+            </div>
+        </div>
+    </section>
+
+    <!--  Meus projetos -->
+    <section id="projetos">
+
+        <h2>Projetos</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Gestão de Estoque</h3>
+                <p>Sistema de gerenciamento de produtos com cadastro, consultas, atualização de quantidades e monitoramento dos níveis de estoque.</p>
+                <div class="tags">
+                    <span class="chip">Python</span>
+                    <span class="chip">SQLite</span>
+                    <span class="chip">CRUD</span>
+                </div>
+                <a class="btn b1 pl" href="https://github.com/Danyel-xp/Gestao-de-Estoque" target="_blank" rel="noopener">Ver projeto</a>
+            </div>
+
+            <div class="card">
+                <h3>Sistema de Gerenciamento de Academia</h3>
+                <p>Banco de dados relacional para gerenciar clientes, planos, serviços, matrículas e pagamentos.</p>
+                <div class="tags">
+                    <span class="chip">MySQL</span>
+                    <span class="chip">Modelagem de Dados</span>
+                </div>
+                <a class="btn b1 pl" href="https://github.com/Danyel-xp/Big-s-Fitness-Club" target="_blank" rel="noopener">Ver projeto</a>
+            </div>
+
+            <div class="card">
+                <h3>Site Portfólio</h3>
+                <p>Site desenvolvido para apresentar meus projetos, habilidades, trajetória e interesses, com foco em design e identidade visual.</p>
+                <div class="tags">
+                    <span class="chip">HTML</span>
+                    <span class="chip">CSS</span>
+                    <span class="chip">JS</span>
+                </div>
+                <a class="btn b1 pl" href="https://github.com/Danyel-xp/my-portfolio" target="_blank" rel="noopener">Ver projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meus hobbies -->
+    <section id="hobbies">
+
+        <h2>Além do código</h2>
+
+        <div class="hob">
+
+            <div class="card">
+                <span class="ico">✎</span>
+                <div>
+                    <h3>Desenho e ilustração</h3>
+                    <p>Rabiscar personagens e cenas é o meu jeito de pensar com as mãos.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="ico">♫</span>
+                <div>
+                    <h3>Música</h3>
+                    <p>Meu album e banda favorita:</p>
+                    <span class="chip">Vocations</span>
+                    <span class="chip">Cigarettes After Sex</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="ico">✦</span>
+                <div>
+                    <h3>Anime e mangá</h3>
+                    <p>Histórias e traços que inspiram o meu olhar de designer.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="ico">◈</span>
+                <div>
+                    <h3>Games</h3>
+                    <p>Franquias favoritas:</p>
+                    <span class="chip">Diablo</span>
+                    <span class="chip">Tekken</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="ico">❀</span>
+                <div>
+                    <h3>Natureza</h3>
+                    <p>Trilhas, plantas e paisagens para desacelerar e recarregar as ideias.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="ico">&gt;_</span>
+                <div>
+                    <h3>Linux e personalização</h3>
+                    <p>Montar e ajustar o ambiente do jeito que combina comigo.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Meus Contatos -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p class="lead">Vamos conversar sobre o seu próximo projeto?</p>
+        <br>
+        <div class="btns">
+            <a class="btn b1" href="mailto:danyellrodrigues023@gmail.com">✉ Daniel@email.com</a>
+            <a class="btn b2" href="https://www.linkedin.com/in/danyelrodrigues/">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>© 2026 Daniel · Feito com carinho</footer>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
