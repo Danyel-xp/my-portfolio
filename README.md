@@ -65,7 +65,7 @@ Estudante de Ciência da Computação, interessado em desenvolvimento web, desen
   ·
   <a href="https://www.linkedin.com/in/danyelrodrigues/">LinkedIn</a>
   .
-  <a href="ttps://wa.me/5586981888397?text=Ol%C3%A1%20Daniel%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar">WhatsApp</a>
+  <a href="https://wa.me/5586981888397?text=Ol%C3%A1%20Daniel%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar">WhatsApp</a>
 </p>
 
 ---
